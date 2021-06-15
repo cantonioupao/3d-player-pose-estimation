@@ -1,12 +1,13 @@
-# Super Triangulation 
+# 3D Player Pose Estimation
+## Super Triangulation approach
+
 Super Triangulation is a method that leverages Alphapose (or Detectron+OpenPose) 2D detections and pose estimation, SuperGlue player pose correspondences and the classical triangulation method for multi-view 3D pose reconstruction
 
 In the following repository you might find source code from other Github repositories. Mainly from [Detectron](https://github.com/facebookresearch/Detectron), [Alphapose](https://github.com/MVIG-SJTU/AlphaPose), [SuperGlue](https://github.com/magicleap/SuperGluePretrainedNetwork), [Openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose), AlphaPose and Detectron (See reference section for more details). Nevertheless all source code has been modified to suit the needs of the project. The jupyter notebook gives a step by step guide through the whole Super Tringulation method implementation.
 The jupyter notebook belongs to Christos Antoniou and code can be used under the classis source code license.
 Make sure that all files in the repository are present when executing the notebook cells. It is of prime importance that the ````3d.py```` file is included in the repository, in order to succesfully visualize the results. The visualization python file might not be eligible for execution directly from the notebook, so please run independently if any errors occur. The code for both the visualization python part and the main Super Triangulation implementation in Jupyter, is documented with a plethora of comments.
 
-![Alt text](./cam1_view_frame0_detection0.png?raw=true "Title")
-![Alt text](./right_view_frame0_detection0.png?raw=true "Title")
+![Alt text](./cam1_view_frame0_detection0.png?raw=true "Title")*CAM1 camera view keypoint correspondences* ![Alt text](./right_view_frame0_detection0.png?raw=true "Title")*RIGHT camera view keypoint correspondences*
 ![Alt text](./3Dskeleton.png?raw=true "Title")
 
 
