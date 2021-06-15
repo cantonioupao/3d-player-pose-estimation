@@ -1,0 +1,2 @@
+cam1.png right.png
+cam1.png left.png 
